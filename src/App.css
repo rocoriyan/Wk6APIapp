@@ -38,3 +38,21 @@
   line-height: 0;
   height:20px;
 }
+
+.modal{
+  margin: 0 auto;
+  padding: 20px;
+  width: 900px;
+  height: 700px;
+  text-align: center;
+  align-items: center;
+  background-color: lightblue; /* for testing */
+}
+
+.modal img{
+  height: 400px;
+}
+
+.modalOverlay{
+  background-color: lightcoral; /* for testing */
+}

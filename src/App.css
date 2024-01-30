@@ -1,3 +1,8 @@
+body{
+  background-color: blanchedalmond;
+  font-family: 
+}
+
 .main{
   display: flex;
   flex-direction: column;
@@ -39,13 +44,49 @@
   height:20px;
 }
 
-.modal{
+.infoContainer{
+  width: max-content;
   margin: 0 auto;
-  padding: 20px;
+}
+
+.info{
+  display: flex;
+  justify-content: left;
+  gap:20px;
+  padding: auto;
+}
+
+.list{
+  justify-content: left;
+  text-align: left;
+  gap:0;
+}
+
+.infoContainer h3, .infoContainer p{
+  margin-top: 10px;
+  line-height: 0;
+}
+
+.infoContainer p{
+  margin-left: -5px;
+}
+
+.infoContainer ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 20px;
+  padding-left: 5px;
+}
+
+.modal{
+  margin: auto auto;
   width: 900px;
   height: 700px;
   text-align: center;
   align-items: center;
+  padding: 20px;
+  border-radius: 30px;
   background-color: lightblue; /* for testing */
 }
 
